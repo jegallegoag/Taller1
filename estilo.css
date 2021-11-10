@@ -1,0 +1,64 @@
+body{ /*modificamos odo el cuerpo*/ 
+	font-family: arial,helvetica;
+	background: #e8e8e8;
+}
+header{ /*modificamos el header que contiene el menu*/
+	background: black;
+	width: 100%;
+	clear: both;
+	content: "";
+	display: table;
+}
+.menu{  /*Modificamos donde estan las opciones de acceso*/
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+.menu li a{ /* modificamos donde estan los links de acceso*/
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+	display: block;
+}
+.menu li{ /* modificamos la lista*/
+	display: inline-block;
+	float: center;
+}
+.menu li a:hover{ /*con esta opcion nos permite cambiar el color cuando esten encima de la opcion*/
+	background: #ef8354;
+}
+.brand img{ /* modificamos las domensiones de la imagen que tenemos de logo*/
+	width: 125px;
+	height: 50px;
+	float: left;
+	padding: 9px;
+}
+.textos {
+	width: 800px;
+	margin: 0 auto;
+}
+#logo{
+	animation: animacion 2s linear infinite;
+}
+
+@keyframes animacion{
+	0%{
+		box-shadow: 0 0 0 #e8e8e8, 0 0 0 #e8e8e8;
+	}
+
+	30%{
+		box-shadow: 0 0 0 5px #e8e8e8,0 0 0 5px #e8e8e8;
+	}
+
+	65%{
+		box-shadow: 0 0 0 5px #e8e8e8,0 0 0 5px #e8e8e8;
+	}
+
+	100%{
+		box-shadow: 0 0 0 #e8e8e8, 0 0 0 #e8e8e8;
+	}
+}
+hr{
+	clear: both;
+}
+
